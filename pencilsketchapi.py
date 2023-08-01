@@ -15,7 +15,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-# Controller-1
+# Test API
 @app.route("/demo", methods=['GET'])
 def get_demo():
     return "This is a demo api"
