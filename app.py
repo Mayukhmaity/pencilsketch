@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS
 import json
 import numpy as np
 import cv2
@@ -11,10 +10,6 @@ import requests
 
 # Initializing flask app
 app = Flask(__name__)
-# Adding cors to flask
-CORS(app)
-
-
 @app.route("/")
 def hello():
     return "Hello, World!"
