@@ -1,0 +1,44 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="19">
+            <item index="0" class="java.lang.String" itemvalue="shapely" />
+            <item index="1" class="java.lang.String" itemvalue="trimesh" />
+            <item index="2" class="java.lang.String" itemvalue="scikit-image" />
+            <item index="3" class="java.lang.String" itemvalue="mayavi" />
+            <item index="4" class="java.lang.String" itemvalue="scipy" />
+            <item index="5" class="java.lang.String" itemvalue="fancyimpute" />
+            <item index="6" class="java.lang.String" itemvalue="pyopengl" />
+            <item index="7" class="java.lang.String" itemvalue="traits" />
+            <item index="8" class="java.lang.String" itemvalue="cvxpy" />
+            <item index="9" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="10" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="11" class="java.lang.String" itemvalue="cython" />
+            <item index="12" class="java.lang.String" itemvalue="numpy" />
+            <item index="13" class="java.lang.String" itemvalue="pyqt5" />
+            <item index="14" class="java.lang.String" itemvalue="vtk" />
+            <item index="15" class="java.lang.String" itemvalue="ecos" />
+            <item index="16" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="17" class="java.lang.String" itemvalue="opendr" />
+            <item index="18" class="java.lang.String" itemvalue="openpyxl" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="project.wsgi.django_project" />
+          <option value="app.models.weather.models" />
+          <option value="extensions" />
+          <option value="api.serializers.TaskSerializers" />
+          <option value="api.models.Account" />
+          <option value="chatgpt_data.gpt_index" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
