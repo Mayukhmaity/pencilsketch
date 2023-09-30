@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'PencilSketchAPIArtisanfurniture'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CD4EB5F975034B9781AC52E198FF5895 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AFD3282E819048C59F8F7F64CEFB0D4A }}
